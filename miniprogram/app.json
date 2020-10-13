@@ -12,12 +12,34 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
-    "pages/im/room/room"
+    "pages/im/room/room",
+    "pages/girlIndex/index"
   ],
   "permission": {
     "scope.userLocation": {
       "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#ff5722",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./common/images/icon/shouye.png",
+        "selectedIconPath": "./common/images/icon/shouye.png",
+        "selectedColor": "#ff5722"
+      },
+      {
+        "pagePath": "pages/girlIndex/index",
+        "text": "我的",
+        "iconPath": "./common/images/icon/wode.png",
+        "selectedIconPath": "./common/images/icon/wode.png",
+        "selectedColor": "#ff5722"
+      }
+    ]
   },
   "window": {
     "backgroundColor": "#F6F6F6",

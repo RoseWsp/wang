@@ -14,6 +14,13 @@ App({
         traceUser: true,
       })
     }
+    wx.getUserInfo({
+      withCredentials: true,
+      lang: '',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
 
     this.globalData = {}
   }
